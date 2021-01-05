@@ -1,0 +1,41 @@
+{
+    "name": "horstoeko/slimapp-skeleton",
+    "keywords": [
+        "slim",
+        "framework",
+        "skeleton",
+        "app"
+    ],
+    "description": "Skeleton for horstoeko/slimapp",
+    "homepage": "https://github.com/horstoeko/slimapp-skeleton",
+    "type": "package",
+    "license": "MIT",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Daniel Erling",
+            "email": "daniel@erling.com.de",
+            "role": "lead"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.3.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "require": {
+        "php": "^7",
+        "horstoeko/slimapp": "^1"
+    },
+    "require-dev": {
+    },
+    "scripts": {
+    }
+}

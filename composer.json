@@ -42,6 +42,7 @@
             "php -r \"@mkdir('./var/twig');\"",
             "php -r \"@mkdir('./var/log');\"",
             "php -r \"@mkdir('./var/ssl');\"",
+            "php -r \"@mkdir('./var/dbmigrations');\"",
             "php -r \"@mkdir('./app');\"",
             "php -r \"@mkdir('./app/action');\"",
             "php -r \"@mkdir('./app/html');\"",

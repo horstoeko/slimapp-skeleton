@@ -46,7 +46,7 @@
             "php -r \"@mkdir('./app');\"",
             "php -r \"@mkdir('./app/action');\"",
             "php -r \"@mkdir('./app/html');\"",
-            "php -r \"@mkdir('./app/dbtables');\"",
+            "php -r \"@mkdir('./app/models');\"",
             "php -r \"@mkdir('./etc');\"",
             "php -r \"if (file_exists('./phoenix.json') == false) { copy('./vendor/horstoeko/slimapp/src/dbmigrations/phoenix.json.dist','./phoenix.json'); }\""
         ]
